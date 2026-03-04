@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Link, useParams } from 'react-router-dom';
 import { BLOG_POSTS } from '../constants';
 import { Calendar, User, ArrowRight, Instagram, Facebook } from 'lucide-react';

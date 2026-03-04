@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Target, Eye, Heart, Award, Leaf } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 

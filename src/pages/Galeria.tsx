@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { GALLERY_IMAGES } from '../constants';
 import { Helmet } from 'react-helmet-async';
 
