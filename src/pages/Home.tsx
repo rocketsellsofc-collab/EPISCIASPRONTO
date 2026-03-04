@@ -120,7 +120,7 @@ export function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
             <div className="relative">
               <img
-                src="https://media-gig4-2.cdn.whatsapp.net/v/t61.24694-24/485527889_998869255205402_1100689210935307089_n.jpg?ccb=11-4&oh=01_Q5Aa3wEVwSLJhBqKavmIeU9iIqU1ztRU6tengLmH4n4-xSepTA&oe=69B5505E&_nc_sid=5e03e0&_nc_cat=104"
+                src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=1000"
                 alt="Nossa Estufa"
                 className="rounded-[60px] shadow-2xl"
                 referrerPolicy="no-referrer"
@@ -162,7 +162,7 @@ export function Home() {
         </div>
 
         <div className="flex gap-8 animate-marquee">
-          {GALLERY_IMAGES.slice(0, 10).map((img, i) => (
+          {[...GALLERY_IMAGES.slice(0, 10), ...GALLERY_IMAGES.slice(0, 10)].map((img, i) => (
             <div key={i} className="min-w-[350px] h-[450px] rounded-[40px] overflow-hidden shadow-2xl group relative">
               <img src={img.url} alt={img.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
