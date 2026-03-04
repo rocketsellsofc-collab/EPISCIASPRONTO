@@ -1,15 +1,15 @@
 {
-  "short_name": "Epíscias SP",
   "name": "Epíscias São Paulo Brasil",
+  "short_name": "Epíscias SP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF5E78",
   "icons": [
     {
       "src": "https://i.pinimg.com/736x/5d/37/7d/5d377d1cb16f4ca5207a38591f66d7c9.jpg",
-      "sizes": "192x192",
+      "sizes": "512x512",
       "type": "image/jpeg"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#ff4d8d",
-  "background_color": "#ffffff"
+  ]
 }
