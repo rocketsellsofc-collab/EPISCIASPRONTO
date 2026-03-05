@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { GALLERY_IMAGES } from '../constants';
 import { Helmet } from 'react-helmet-async';
+import { WhatsAppIcon } from '../components/Layout';
 
 export function Galeria() {
   return (
@@ -51,6 +52,7 @@ export function Galeria() {
             rel="noopener noreferrer"
             className="bg-brand-pink text-white px-12 py-6 rounded-2xl text-xl font-black hover:scale-105 active:scale-95 transition-all inline-flex items-center gap-3 shadow-2xl shadow-brand-pink/20"
           >
+            <WhatsAppIcon size={24} />
             Consultar Disponibilidade
           </a>
         </div>

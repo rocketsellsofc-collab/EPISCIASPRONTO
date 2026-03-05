@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Target, Eye, Heart, Award, Leaf } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
+import { WhatsAppIcon } from '../components/Layout';
 
 export function Sobre() {
   return (
@@ -98,7 +99,7 @@ export function Sobre() {
 }
 
 function MessageCircleIcon() {
-  return <div className="w-20 h-20 bg-brand-blue/10 rounded-[24px] flex items-center justify-center shadow-inner"><Target className="text-brand-blue" size={32} /></div>;
+  return <div className="w-20 h-20 bg-brand-blue/10 rounded-[24px] flex items-center justify-center shadow-inner"><WhatsAppIcon className="text-brand-blue" size={32} /></div>;
 }
 
 function BoxIcon() {

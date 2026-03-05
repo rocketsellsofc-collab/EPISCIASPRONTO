@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, CheckCircle2, Star, Image as ImageIcon, MessageCircle, Globe, Award, Shield } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Star, Image as ImageIcon, Globe, Award, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { TESTIMONIALS, BLOG_POSTS, GALLERY_IMAGES } from '../constants';
+import { WhatsAppIcon } from '../components/Layout';
 
 export function Home() {
   return (
@@ -46,7 +47,7 @@ export function Home() {
                 rel="noopener noreferrer"
                 className="bg-brand-pink text-white px-10 py-5 rounded-2xl text-xl font-black hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 shadow-2xl shadow-brand-pink/30"
               >
-                Pedir agora <MessageCircle size={24} />
+                Pedir agora <WhatsAppIcon size={24} />
               </a>
               <Link
                 to="/galeria"
@@ -92,7 +93,7 @@ export function Home() {
               {
                 title: 'Atendimento Especializado',
                 desc: 'Suporte direto de quem entende do assunto. Tiramos suas dúvidas e auxiliamos no sucesso do seu cultivo.',
-                icon: <MessageCircle className="text-brand-blue" size={48} />
+                icon: <WhatsAppIcon className="text-brand-green" size={48} />
               },
               {
                 title: 'Envio Global Seguro',
@@ -214,7 +215,7 @@ export function Home() {
             rel="noopener noreferrer"
             className="bg-brand-black text-white px-12 py-6 rounded-2xl text-2xl font-black hover:scale-105 active:scale-95 transition-all inline-flex items-center gap-4 shadow-2xl"
           >
-            Chamar no WhatsApp <MessageCircle size={28} />
+            Chamar no WhatsApp <WhatsAppIcon size={28} />
           </a>
         </div>
       </section>

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, HelpCircle } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import { FAQ_ITEMS } from '../constants';
+import { WhatsAppIcon } from '../components/Layout';
 
 export function FAQ() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -69,8 +70,9 @@ export function FAQ() {
             href="https://wa.me/5511948570371"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-brand-pink text-white px-12 py-6 rounded-2xl font-black hover:scale-105 active:scale-95 transition-all inline-block shadow-2xl shadow-brand-pink/20 relative z-10"
+            className="bg-brand-pink text-white px-12 py-6 rounded-2xl font-black hover:scale-105 active:scale-95 transition-all inline-flex items-center gap-3 shadow-2xl shadow-brand-pink/20 relative z-10"
           >
+            <WhatsAppIcon size={24} />
             Falar com Especialista
           </a>
         </div>
