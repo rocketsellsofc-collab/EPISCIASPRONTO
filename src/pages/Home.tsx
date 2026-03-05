@@ -45,7 +45,7 @@ export function Home() {
                 href="https://wa.me/5511948570371"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-brand-pink text-white px-10 py-5 rounded-2xl text-xl font-black hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 shadow-2xl shadow-brand-pink/30"
+                className="bg-brand-pink text-white px-8 py-4 md:px-10 md:py-5 rounded-2xl text-lg md:text-xl font-black hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 shadow-2xl shadow-brand-pink/30"
               >
                 Pedir agora <WhatsAppIcon size={24} />
               </a>
@@ -206,14 +206,14 @@ export function Home() {
         </div>
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
           <h2 className="text-4xl md:text-7xl font-serif font-black text-white mb-10 tracking-tighter leading-none">Pronto para começar seu próprio cultivo?</h2>
-          <p className="text-2xl text-white/90 mb-12 font-medium">
+          <p className="text-xl md:text-2xl text-white/90 mb-12 font-medium">
             Fale conosco agora pelo WhatsApp e conheça nosso catálogo de sementes disponíveis!
           </p>
           <a
             href="https://wa.me/5511948570371"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-brand-black text-white px-12 py-6 rounded-2xl text-2xl font-black hover:scale-105 active:scale-95 transition-all inline-flex items-center gap-4 shadow-2xl"
+            className="bg-brand-black text-white px-8 py-4 md:px-12 md:py-6 rounded-2xl text-xl md:text-2xl font-black hover:scale-105 active:scale-95 transition-all inline-flex items-center gap-4 shadow-2xl"
           >
             Chamar no WhatsApp <WhatsAppIcon size={28} />
           </a>

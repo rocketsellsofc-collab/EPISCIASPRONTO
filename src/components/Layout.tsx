@@ -123,7 +123,7 @@ export function Navbar() {
                   href="https://wa.me/5511948570371"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-brand-pink text-white w-full py-5 rounded-2xl text-sm font-black uppercase tracking-widest flex items-center justify-center gap-3 shadow-xl"
+                  className="bg-brand-pink text-white w-full py-4 rounded-2xl text-sm font-black uppercase tracking-widest flex items-center justify-center gap-3 shadow-xl"
                 >
                   <WhatsAppIcon size={20} />
                   Fale Conosco no WhatsApp
@@ -234,10 +234,15 @@ export function WhatsAppButton() {
       href="https://wa.me/5511948570371"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-10 right-10 z-50 bg-brand-pink text-white p-6 rounded-[32px] shadow-2xl hover:scale-110 active:scale-95 transition-all flex items-center justify-center group"
+      className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 bg-brand-pink text-white p-4 md:p-6 rounded-[24px] md:rounded-[32px] shadow-2xl hover:scale-110 active:scale-95 transition-all flex items-center justify-center group"
       aria-label="Contato via WhatsApp"
     >
-      <WhatsAppIcon size={36} />
+      <div className="md:hidden">
+        <WhatsAppIcon size={28} />
+      </div>
+      <div className="hidden md:block">
+        <WhatsAppIcon size={36} />
+      </div>
       <span className="absolute right-full mr-6 bg-brand-black text-white px-6 py-3 rounded-2xl text-xs font-black uppercase tracking-widest shadow-2xl opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0 whitespace-nowrap pointer-events-none">
         Fale Conosco!
       </span>
