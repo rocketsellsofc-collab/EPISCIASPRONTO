@@ -124,7 +124,7 @@ export const TESTIMONIALS: Testimonial[] = [
   }
 ];
 
-export const GALLERY_IMAGES = [
+export const COLLECTION_IMAGES = [
   { url: 'https://i.pinimg.com/736x/5d/37/7d/5d377d1cb16f4ca5207a38591f66d7c9.jpg', alt: 'Episcia Variedade 1' },
   { url: 'https://i.pinimg.com/736x/f5/16/66/f516666f9a1f6aac11f7312b5e6f0088.jpg', alt: 'Episcia Variedade 2' },
   { url: 'https://i.pinimg.com/736x/88/f9/4a/88f94a8c65312377f009dc596dc10f57.jpg', alt: 'Episcia Variedade 3' },
@@ -132,11 +132,23 @@ export const GALLERY_IMAGES = [
   { url: 'https://i.pinimg.com/736x/f0/21/90/f02190c96c846a9ff291d9201bf4e36f.jpg', alt: 'Episcia Variedade 5' },
   { url: 'https://i.pinimg.com/736x/34/f1/90/34f190c92d9ff7e23ece159ca8260445.jpg', alt: 'Episcia Variedade 6' },
   { url: 'https://i.pinimg.com/736x/52/9e/54/529e5421446f355cd1476ec90301dd58.jpg', alt: 'Episcia Variedade 7' },
-  { url: 'https://i.pinimg.com/736x/04/27/a3/0427a3fd167ef28f6078cbc3637d01de.jpg', alt: 'Episcia Variedade 8' },
-  { url: 'https://i.pinimg.com/736x/25/9d/6d/259d6dc868cd89e9c778a1f0af0ce0a8.jpg', alt: 'Episcia Variedade 9' },
-  { url: 'https://i.pinimg.com/736x/53/b9/76/53b976a1112554ec9f73ba81bfa68382.jpg', alt: 'Episcia Variedade 10' },
-  { url: 'https://i.pinimg.com/736x/ef/b5/74/efb574d15f278edfb04ac5f1688ceaea.jpg', alt: 'Episcia Variedade 11' },
-  { url: 'https://i.pinimg.com/736x/4a/08/9c/4a089c8f39d384f75a24913b22bfab42.jpg', alt: 'Episcia Variedade 12' },
-  { url: 'https://i.pinimg.com/736x/6f/69/b9/6f69b90ba8cfd595f02c8bae831d803c.jpg', alt: 'Episcia Variedade 13' },
-  { url: 'https://i.pinimg.com/736x/ea/93/4e/ea934e2b256f083113703db114b01d77.jpg', alt: 'Episcia Variedade 14' },
+];
+
+export const GALLERY_IMAGES = [
+  { url: 'https://i.pinimg.com/736x/25/9d/6d/259d6dc868cd89e9c778a1f0af0ce0a8.jpg', alt: 'Episcia Galeria 1' },
+  { url: 'https://i.pinimg.com/736x/53/b9/76/53b976a1112554ec9f73ba81bfa68382.jpg', alt: 'Episcia Galeria 2' },
+  { url: 'https://i.pinimg.com/736x/ef/b5/74/efb574d15f278edfb04ac5f1688ceaea.jpg', alt: 'Episcia Galeria 3' },
+  { url: 'https://i.pinimg.com/736x/4a/08/9c/4a089c8f39d384f75a24913b22bfab42.jpg', alt: 'Episcia Galeria 4' },
+  { url: 'https://i.pinimg.com/736x/6f/69/b9/6f69b90ba8cfd595f02c8bae831d803c.jpg', alt: 'Episcia Galeria 5' },
+  { url: 'https://i.pinimg.com/736x/ea/93/4e/ea934e2b256f083113703db114b01d77.jpg', alt: 'Episcia Galeria 6' },
+  { url: 'https://i.pinimg.com/736x/7b/7b/7b/7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b.jpg', alt: 'Episcia Galeria 9' },
+  { url: 'https://i.pinimg.com/736x/8c/8c/8c/8c8c8c8c8c8c8c8c8c8c8c8c8c8c8c8c.jpg', alt: 'Episcia Galeria 10' },
+];
+
+export const GERMINATION_IMAGES = [
+  { url: 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=800', alt: 'Germinação 1' },
+  { url: 'https://images.unsplash.com/photo-1416870262648-2513befe065f?auto=format&fit=crop&q=80&w=800', alt: 'Germinação 2' },
+  { url: 'https://images.unsplash.com/photo-1463320898484-cdee8141c787?auto=format&fit=crop&q=80&w=800', alt: 'Germinação 3' },
+  { url: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&q=80&w=800', alt: 'Germinação 4' },
+  { url: 'https://images.unsplash.com/photo-1530836361253-efad5cb2fe21?auto=format&fit=crop&q=80&w=800', alt: 'Germinação 5' },
 ];

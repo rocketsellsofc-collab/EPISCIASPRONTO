@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle2, Star, Image as ImageIcon, Globe, Award, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { TESTIMONIALS, BLOG_POSTS, GALLERY_IMAGES } from '../constants';
+import { TESTIMONIALS, BLOG_POSTS, COLLECTION_IMAGES, GERMINATION_IMAGES } from '../constants';
 import { WhatsAppIcon } from '../components/Layout';
 
 export function Home() {
@@ -35,7 +35,7 @@ export function Home() {
               <Globe size={18} /> Envio Nacional e Internacional
             </span>
             <h1 className="text-6xl md:text-8xl font-serif font-black text-brand-black leading-[0.9] mb-8 tracking-tighter">
-              Cultive a <span className="text-brand-pink">Beleza</span> em Qualquer Lugar
+              Pequenas Sementes <span className="text-brand-pink">Grandes</span> Jardins
             </h1>
             <p className="text-xl text-brand-black/70 mb-12 leading-relaxed max-w-lg font-medium">
               Descubra a maior variedade de sementes de Episcias. Genética selecionada e enviada com segurança para colecionadores em todo o mundo.
@@ -163,7 +163,26 @@ export function Home() {
         </div>
 
         <div className="flex gap-8 animate-marquee">
-          {[...GALLERY_IMAGES.slice(0, 10), ...GALLERY_IMAGES.slice(0, 10)].map((img, i) => (
+          {[...COLLECTION_IMAGES, ...COLLECTION_IMAGES].map((img, i) => (
+            <div key={i} className="min-w-[350px] h-[450px] rounded-[40px] overflow-hidden shadow-2xl group relative">
+              <img src={img.url} alt={img.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+                <span className="text-white font-black text-lg">{img.alt}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Germination Carousel */}
+      <section className="py-32 bg-brand-blue/5 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-6 tracking-tighter">Germinação de sementes</h2>
+          <p className="text-xl text-brand-black/60 font-medium">Acompanhe o início da vida de nossas Epíscias.</p>
+        </div>
+
+        <div className="flex gap-8 animate-marquee-reverse">
+          {[...GERMINATION_IMAGES, ...GERMINATION_IMAGES].map((img, i) => (
             <div key={i} className="min-w-[350px] h-[450px] rounded-[40px] overflow-hidden shadow-2xl group relative">
               <img src={img.url} alt={img.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
