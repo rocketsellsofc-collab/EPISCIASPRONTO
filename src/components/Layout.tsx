@@ -185,13 +185,17 @@ export function Footer() {
                 <div className="w-10 h-10 rounded-xl bg-stone-900 flex items-center justify-center shrink-0">
                   <Globe size={18} className="text-brand-pink" />
                 </div>
-                <span className="text-stone-400 font-medium">São Paulo – Brasil <br/> (Envio Global)</span>
+                <span className="text-stone-400 font-medium">
+                  Estrada da Várzea, s/n <br/>
+                  Sarapuí – SP <br/>
+                  CEP 18225-970
+                </span>
               </li>
               <li className="flex items-start gap-5">
                 <div className="w-10 h-10 rounded-xl bg-stone-900 flex items-center justify-center shrink-0">
                   <WhatsAppIcon size={18} className="text-brand-green" />
                 </div>
-                <span className="text-stone-400 font-black text-lg">(11) 94857-0371</span>
+                <span className="text-stone-400 font-black text-lg">+55 11 94857-0371</span>
               </li>
             </ul>
           </div>

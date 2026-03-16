@@ -38,7 +38,7 @@ export function Home() {
               Pequenas Sementes <span className="text-brand-pink">Grandes</span> Jardins
             </h1>
             <p className="text-xl text-brand-black/70 mb-12 leading-relaxed max-w-lg font-medium">
-              Descubra a maior variedade de sementes de Episcias. Genética selecionada e enviada com segurança para colecionadores em todo o mundo.
+              Sementes selecionadas com comprometimento, cultivadas com amor para um mundo mais florido
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <a
@@ -72,32 +72,32 @@ export function Home() {
             {[
               {
                 title: 'Produção Própria',
-                desc: 'Cultivamos nossas próprias matrizes com dedicação total, garantindo o controle completo da qualidade desde a polinização.',
+                desc: 'Nossa produção começa com a seleção rigorosa de matrizes saudáveis e vigorosas.',
                 icon: <LeafIcon />
               },
               {
                 title: 'Seleção Criteriosa',
-                desc: 'Cada semente passa por uma inspeção rigorosa. Enviamos apenas sementes frescas e com alto potencial de germinação.',
+                desc: 'Cada matriz é escolhida por meio de germinação, garantindo sementes de alto padrão e plantas verdadeiramente excepcionais, indo de encontro com o gosto do cliente.',
                 icon: <CheckCircle2 className="text-brand-pink" size={48} />
               },
               {
                 title: 'Cultivo Profissional',
-                desc: 'Anos de experiência técnica aplicados em cada etapa, resultando em plantas saudáveis e genética superior.',
+                desc: 'Anos de dedicação, observação e experiência técnica transformaram a nossa paixão pelas plantas em um trabalho de excelência. MINHA FAMILIA TRABALHANDO PARA SUA FAMILIA.',
                 icon: <AwardIcon />
               },
               {
                 title: 'Autenticidade Garantida',
-                desc: 'Compromisso real com a variedade prometida. Você recebe exatamente a genética que escolheu para sua coleção.',
+                desc: 'Cada Epíscia é cuidadosamente identificada, garantindo autenticidade da espécie e fidelidade genética nas sementes produzidas',
                 icon: <ShieldIcon />
               },
               {
                 title: 'Atendimento Especializado',
-                desc: 'Suporte direto de quem entende do assunto. Tiramos suas dúvidas e auxiliamos no sucesso do seu cultivo.',
+                desc: 'Oferecemos um atendimento especializado, pessoal e humano, sempre prontos para orientar e ajudar em cada etapa do cultivo',
                 icon: <WhatsAppIcon className="text-brand-green" size={48} />
               },
               {
                 title: 'Envio Global Seguro',
-                desc: 'Logística aprimorada para entregas nacionais e internacionais, com embalagens que protegem a vida das sementes.',
+                desc: 'Realizamos envio internacional com comunicação em diferentes idiomas, utilizando embalagens seguras e proteção adequado para garantir que as sementes cheguem com qualidade e segurança.\nTrabalhamos com empreses de câmbio mundial.',
                 icon: <TruckIcon />
               }
             ].map((benefit, i) => (
@@ -133,11 +133,8 @@ export function Home() {
             </div>
             <div>
               <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-8 tracking-tighter">Epíscias São Paulo Brasil</h2>
-              <p className="text-xl text-brand-black/70 mb-8 leading-relaxed font-medium">
-                Nascemos da paixão pelas cores e texturas únicas das Episcias. Localizados em São Paulo, nos tornamos referência global na comercialização de sementes de alta qualidade dessas joias tropicais.
-              </p>
               <p className="text-xl text-brand-black/70 mb-12 leading-relaxed font-medium">
-                Nossa missão é democratizar o acesso a variedades raras, permitindo que colecionadores de todos os países experimentem o prazer de ver sua própria planta crescer desde a semente.
+                Nascendo da soleira da casa de minha avó, fornecemos os meios do colecionador vivenciar a experiência incrível de produzir desde a sementes. Nosso trabalho tem como objetivo se tornar uma referência global na produção e oferta de sementes, unificando e permitindo o acesso a diferentes variedades para colecionadores e amantes de plantas em todo o mundo, sempre com qualidade, dedicação e respeito á autenticidade das espécies.
               </p>
               <Link
                 to="/sobre"
