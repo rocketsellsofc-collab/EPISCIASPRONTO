@@ -51,8 +51,13 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="bg-brand-black p-2 rounded-2xl group-hover:rotate-12 transition-transform shadow-xl">
-              <Leaf className="text-brand-green w-6 h-6" />
+            <div className="bg-brand-black p-1 rounded-2xl group-hover:rotate-12 transition-transform shadow-xl overflow-hidden w-10 h-10 flex items-center justify-center">
+              <img 
+                src="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" 
+                alt="Epíscias SP Logo" 
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <span className="font-serif text-2xl font-black tracking-tighter text-brand-black">
               Epíscias <span className="text-brand-pink">SP</span>
@@ -149,7 +154,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-20 mb-24">
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-10">
-              <Leaf className="text-brand-green w-10 h-10" />
+              <div className="bg-white p-1 rounded-2xl shadow-xl overflow-hidden w-12 h-12 flex items-center justify-center">
+                <img 
+                  src="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" 
+                  alt="Epíscias SP Logo" 
+                  className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
               <span className="font-serif text-3xl font-black text-white tracking-tighter">
                 Epíscias <span className="text-brand-pink">SP</span>
               </span>

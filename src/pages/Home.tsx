@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle2, Star, Image as ImageIcon, Globe, Award, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { TESTIMONIALS, BLOG_POSTS, COLLECTION_IMAGES, GERMINATION_IMAGES } from '../constants';
+import { TESTIMONIALS, BLOG_POSTS, COLLECTION_IMAGES, GERMINATION_IMAGES, OTHER_SEEDS_IMAGES } from '../constants';
 import { WhatsAppIcon } from '../components/Layout';
 
 export function Home() {
@@ -77,12 +77,12 @@ export function Home() {
               },
               {
                 title: 'Seleção Criteriosa',
-                desc: 'Cada matriz é escolhida por meio de germinação, garantindo sementes de alto padrão e plantas verdadeiramente excepcionais, indo de encontro com o gosto do cliente.',
+                desc: 'Cada matriz é escolhida por meio de germinação, garantindo sementes de alto padrão e plantas verdadeiramente excepcionais.',
                 icon: <CheckCircle2 className="text-brand-pink" size={48} />
               },
               {
                 title: 'Cultivo Profissional',
-                desc: 'Anos de dedicação, observação e experiência técnica transformaram a nossa paixão pelas plantas em um trabalho de excelência. MINHA FAMILIA TRABALHANDO PARA SUA FAMILIA.',
+                desc: 'Anos de dedicação, observação e experiência transformaram a nossa paixão pelas plantas em um trabalho de excelência. MINHA FAMILIA TRABALHANDO PARA SUA FAMILIA.',
                 icon: <AwardIcon />
               },
               {
@@ -121,15 +121,11 @@ export function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=1000"
+                src="https://i.pinimg.com/736x/df/e2/84/dfe2840b740c3e8b85138fb589aecb6a.jpg"
                 alt="Nossa Estufa"
                 className="rounded-[60px] shadow-2xl"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute -bottom-12 -right-12 bg-brand-pink p-10 rounded-[40px] shadow-2xl text-white">
-                <span className="text-6xl font-serif font-black block leading-none">10+</span>
-                <span className="text-xs font-black uppercase tracking-[0.2em]">Anos de Paixão</span>
-              </div>
             </div>
             <div>
               <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-8 tracking-tighter">Epíscias São Paulo Brasil</h2>
@@ -180,6 +176,25 @@ export function Home() {
 
         <div className="flex gap-8 animate-marquee-reverse">
           {[...GERMINATION_IMAGES, ...GERMINATION_IMAGES].map((img, i) => (
+            <div key={i} className="min-w-[350px] h-[450px] rounded-[40px] overflow-hidden shadow-2xl group relative">
+              <img src={img.url} alt={img.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+                <span className="text-white font-black text-lg">{img.alt}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Other Seeds Gallery */}
+      <section className="py-32 bg-transparent overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-6 tracking-tighter">Outras sementes</h2>
+          <p className="text-xl text-brand-black/60 font-medium">Conheça nossa variedade de sementes especiais.</p>
+        </div>
+
+        <div className="flex gap-8 animate-marquee">
+          {[...OTHER_SEEDS_IMAGES, ...OTHER_SEEDS_IMAGES].map((img, i) => (
             <div key={i} className="min-w-[350px] h-[450px] rounded-[40px] overflow-hidden shadow-2xl group relative">
               <img src={img.url} alt={img.alt} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
