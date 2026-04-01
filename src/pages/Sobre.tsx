@@ -9,6 +9,8 @@ export function Sobre() {
       <Helmet>
         <title>Nossa História | Epíscias São Paulo Brasil</title>
         <meta name="description" content="Conheça a história da Epíscias São Paulo Brasil. Da soleira da vovó para o mundo, nossa paixão pelo cultivo de Episcias raras." />
+        <meta property="og:image" content="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" />
+        <meta property="twitter:image" content="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" />
       </Helmet>
       {/* Hero */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-24">

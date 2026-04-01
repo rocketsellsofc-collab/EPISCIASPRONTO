@@ -11,6 +11,8 @@ export function Home() {
       <Helmet>
         <title>Epíscias São Paulo Brasil | Sementes de Episcias Raras</title>
         <meta name="description" content="A maior variedade de sementes de Episcias do Brasil. Genética selecionada, envio nacional e internacional. Cultive a beleza tropical." />
+        <meta property="og:image" content="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" />
+        <meta property="twitter:image" content="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative h-screen flex items-center pt-20">

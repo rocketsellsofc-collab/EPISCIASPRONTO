@@ -13,6 +13,8 @@ export function FAQ() {
       <Helmet>
         <title>Dúvidas Frequentes | Epíscias São Paulo Brasil</title>
         <meta name="description" content="Tire suas dúvidas sobre germinação, cuidados, pagamentos e envios internacionais de sementes de Episcias." />
+        <meta property="og:image" content="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" />
+        <meta property="twitter:image" content="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" />
       </Helmet>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-24">

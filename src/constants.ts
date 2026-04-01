@@ -139,8 +139,6 @@ export const GALLERY_IMAGES = [
 
 export const GERMINATION_IMAGES = [
   { url: 'https://i.pinimg.com/736x/64/bc/77/64bc773a0d38e105674750ee81e7f7ca.jpg', alt: 'Germinação 1' },
-  { url: 'blob:https://br.pinterest.com/257c5cb0-fdde-4abd-a284-44292f3b8e4e', alt: 'Germinação 2' },
-  { url: 'blob:https://br.pinterest.com/07e6649b-e93e-4c1d-8dd4-0855a3d67a83', alt: 'Germinação 3' },
   { url: 'https://i.pinimg.com/736x/dd/b1/49/ddb149f797ca7507890f485f10d80238.jpg', alt: 'Germinação 4' },
   { url: 'https://i.pinimg.com/736x/ee/30/bf/ee30bf218f9ae28ee42b20eec92003d2.jpg', alt: 'Germinação 5' },
 ];
