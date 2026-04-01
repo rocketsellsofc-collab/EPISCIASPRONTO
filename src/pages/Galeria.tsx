@@ -5,16 +5,18 @@ import { WhatsAppIcon } from '../components/Layout';
 
 export function Galeria() {
   return (
-    <div className="pt-40 pb-32 bg-white">
+    <div className="pt-40 pb-32 bg-transparent">
       <Helmet>
         <title>Galeria de Episcias | Epíscias São Paulo Brasil</title>
         <meta name="description" content="Veja nossa coleção de Episcias raras. Fotos reais do nosso cultivo em São Paulo." />
       </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-24">
-          <h1 className="text-5xl md:text-8xl font-serif font-black text-brand-black mb-8 tracking-tighter">Nossa Galeria</h1>
-          <p className="text-xl text-brand-black/60 max-w-2xl mx-auto font-medium">
-            Explore a diversidade de cores e padrões que você pode cultivar a partir de nossas sementes selecionadas. Cada imagem representa o potencial de beleza que entregamos em cada envelope.
+          <h1 className="text-5xl md:text-8xl font-serif font-black text-brand-black mb-8 tracking-tighter">Nossas Sementes</h1>
+          <p className="text-xl text-brand-black/60 max-w-2xl mx-auto font-medium whitespace-pre-line">
+            De pequenas sementes{"\n"}
+            Nascem coleções extraordinárias !{"\n"}
+            Beleza, exclusividade e plantas únicas !
           </p>
           <div className="w-32 h-2 bg-brand-pink mx-auto mt-12 rounded-full"></div>
         </div>
@@ -45,7 +47,7 @@ export function Galeria() {
         </div>
 
         <div className="mt-32 text-center">
-          <p className="text-2xl font-black mb-10 tracking-tight">Gostou de alguma variedade específica?</p>
+          <p className="text-2xl font-black mb-10 tracking-tight">Cada semente carrega a promessa de algo novo</p>
           <a
             href="https://wa.me/5511948570371"
             target="_blank"

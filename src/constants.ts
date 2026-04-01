@@ -59,7 +59,7 @@ Mudas jovens são extremamente sensíveis. Elas precisam de muita claridade, mas
     content: `
 # Por que Cultivar Episcias a partir de Sementes?
 
-Cultivar a partir de sementes não é apenas mais econômico, é uma jornada de descoberta botânica.
+Cultivar Episcias por sementes é uma experiência única de descoberta. Cada planta pode surgir com características próprias, trazendo variedade e exclusividade. Além disso, acompanhar todo o desenvolvimento fortalece a conexão com o cultivo, tornando cada broto uma nova surpresa.
 
 ## Variabilidade Genética
 Cada semente é uma surpresa. Ao contrário das mudas por estaca, as sementes podem revelar padrões e cores ligeiramente diferentes da planta mãe.
@@ -72,32 +72,24 @@ Plantas que crescem desde a semente no seu ambiente tendem a ser mais adaptadas 
 
 export const FAQ_ITEMS: FAQItem[] = [
   {
-    question: 'Como germinar as sementes de Episcia?',
-    answer: 'As sementes de Episcia devem ser semeadas em um substrato leve e mantidas sob luz indireta. A germinação ocorre geralmente entre 15 a 30 dias em ambiente úmido.'
+    question: 'Como se dá a germinação de sementes?',
+    answer: '- Em estufas caseiras\n- Substrato leves e drenável\n- Humidade abundante não encharcado\n- Claridade'
   },
   {
-    question: 'As sementes precisam de sol direto?',
-    answer: 'Não, o sol direto pode cozinhar as sementes ou queimar as mudas jovens. Elas preferem calor e luz filtrada constante.'
+    question: 'Quanto tempo para a germinação?',
+    answer: '- Estando em condições satisfatórias e adequadas: 15 a 20 dias'
   },
   {
-    question: 'Com que frequência devo regar o sementeiro?',
-    answer: 'O substrato deve estar sempre levemente úmido. Use um borrifador para não desenterrar as sementes minúsculas.'
+    question: 'O que devo tomar cuidado durante a germinação?',
+    answer: 'Com as regas (leves através de borrifadores) e manter a humidade constante. Caso fique seca você perde a sementes, ela seca e morre.'
   },
   {
-    question: 'Quais as formas de pagamento aceitas?',
-    answer: 'Aceitamos PIX, cartões de crédito e débito. Para envios internacionais, consulte as opções de pagamento disponíveis via WhatsApp.'
+    question: 'Vocês enviam sementes para todos os países?',
+    answer: 'Sim enviamos!\nPossuímos autorização fitosanitaia.\nO envio é feito com registro e rastreio.\nJá enviamos para 57 países.'
   },
   {
-    question: 'Vocês entregam sementes para outros países?',
-    answer: 'Sim! Enviamos nossas sementes para diversos países. Utilizamos embalagens discretas e seguras que garantem a viabilidade das sementes durante o transporte internacional.'
-  },
-  {
-    question: 'As sementes são de colheita recente?',
-    answer: 'Sim, trabalhamos apenas com sementes frescas de nossa própria produção para garantir altas taxas de sucesso em qualquer continente.'
-  },
-  {
-    question: 'Qual o prazo de entrega internacional?',
-    answer: 'O envio é feito em até 24h. O prazo de entrega internacional varia de 15 a 30 dias úteis, dependendo do país de destino e dos trâmites alfandegários.'
+    question: 'As sementes tem prazo de validade?',
+    answer: 'Sim!\nO prazo de validade é de até 2 (dois) anos.\nDesde que acondicionadas e armazenados em condições corretas.'
   }
 ];
 

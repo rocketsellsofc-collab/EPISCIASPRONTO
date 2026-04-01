@@ -5,7 +5,7 @@ import { WhatsAppIcon } from '../components/Layout';
 
 export function Sobre() {
   return (
-    <div className="pt-32 pb-24 bg-white">
+    <div className="pt-32 pb-24 bg-transparent">
       <Helmet>
         <title>Nossa História | Epíscias São Paulo Brasil</title>
         <meta name="description" content="Conheça a história da Epíscias São Paulo Brasil. Da soleira da vovó para o mundo, nossa paixão pelo cultivo de Episcias raras." />
@@ -34,9 +34,9 @@ export function Sobre() {
           </motion.div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=1000"
+              src="https://i.pinimg.com/736x/36/67/ea/3667ea28219c9bc37b90388ca4f84d2e.jpg"
               alt="Nossa História"
-              className="rounded-3xl shadow-2xl"
+              className="rounded-3xl shadow-2xl w-full aspect-video object-cover"
               referrerPolicy="no-referrer"
             />
           </div>

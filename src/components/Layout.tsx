@@ -41,7 +41,7 @@ export function Navbar() {
       {/* Top Announcement Bar */}
       <div className="bg-brand-black text-white py-2.5 text-center text-[10px] md:text-xs font-black tracking-[0.2em] uppercase flex items-center justify-center gap-3 px-4 shadow-sm">
         <Globe size={14} className="text-brand-green animate-pulse" />
-        <span>Envio para todo o Brasil e Internacional 🌍</span>
+        <span>Envio para todo o Brasil e exterior 🌍</span>
       </div>
       
       <nav className={cn(
@@ -204,7 +204,7 @@ export function Footer() {
             <h4 className="text-white font-serif text-xl font-black mb-10 tracking-tight">Pagamento</h4>
             <div className="space-y-8">
               <div className="flex flex-wrap gap-4">
-                {['PIX', 'Crédito', 'Débito'].map((method) => (
+                {['PIX', 'Crédito', 'Débito', 'Western Union', 'PayPal', 'Wise', 'MoneyGram'].map((method) => (
                   <span key={method} className="px-4 py-2 bg-stone-900 text-stone-300 text-[10px] font-black uppercase tracking-widest rounded-xl border border-stone-800">
                     {method}
                   </span>

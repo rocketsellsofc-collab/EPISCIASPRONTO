@@ -61,10 +61,10 @@ export function Home() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-32 bg-white">
+      <section className="py-32 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-24">
-            <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-6 tracking-tighter">Por que escolher nossas Epíscias?</h2>
+            <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-6 tracking-tighter">Por que escolher nossas sementes</h2>
             <div className="w-32 h-2 bg-brand-pink mx-auto rounded-full"></div>
           </div>
 
@@ -148,7 +148,7 @@ export function Home() {
       </section>
 
       {/* Gallery Highlight */}
-      <section className="py-32 bg-white overflow-hidden">
+      <section className="py-32 bg-transparent overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 flex justify-between items-end">
           <div>
             <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-6 tracking-tighter">Nossa Coleção</h2>
