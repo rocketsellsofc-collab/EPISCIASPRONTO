@@ -15,16 +15,14 @@ export const BLOG_POSTS: BlogPost[] = [
 As Episcias, também conhecidas como "Tapete de Episcia", são plantas tropicais deslumbrantes. Cultivá-las a partir de sementes é uma experiência gratificante para colecionadores em todo o mundo.
 
 ## 1. Germinação de Sementes
-As sementes de Episcia precisam de um substrato leve e úmido. Mantenha a temperatura estável (ideal entre 20°C e 30°C) para garantir uma taxa de germinação alta, independentemente do seu clima local.
+As sementes de Episcia precisam de um substrato leve e úmido. Mantenha a temperatura estável (ideal entre 20°C e 30°C) para garantir uma taxa de germinação alta, em estufa caseira ou profissional.
 
 ## 2. Iluminação Ideal
-Após a germinação, a muda prefere luz indireta brilhante. Evite o sol direto do meio-dia.
+Ofereça iluminação natural ou através de lâmpadas para cultivo.
+Mantenha longe do sol direto
 
-## 3. Umidade e Temperatura
-Sendo plantas tropicais, elas amam umidade alta. Use um umidificador ou coloque o vaso sobre uma bandeja com pedriscos e água.
-
-## Conclusão
-Com paciência e carinho, sua Episcia será o destaque da sua coleção de plantas ornamentais.
+## 3. Umidade
+Mantenha a Umidade sempre alta , deve ficar em torno de 80% .
     `
   },
   {
@@ -73,7 +71,7 @@ Plantas que crescem desde a semente no seu ambiente tendem a ser mais adaptadas 
 export const FAQ_ITEMS: FAQItem[] = [
   {
     question: 'Como se dá a germinação de sementes?',
-    answer: '- Em estufas caseiras\n- Substrato leves e drenável\n- Humidade abundante não encharcado\n- Claridade'
+    answer: '- Em estufas caseiras\n- Substrato leves e drenável\n- Humidade abundante não encharcado\n- Claridade abundante'
   },
   {
     question: 'Quanto tempo para a germinação?',
@@ -81,7 +79,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   },
   {
     question: 'O que devo tomar cuidado durante a germinação?',
-    answer: 'Com as regas (leves através de borrifadores) e manter a humidade constante. Caso fique seca você perde a sementes, ela seca e morre.'
+    answer: 'Com as regas (leves através de borrifadores) e manter a humidade constante. Caso fique seca você perderá as sementes, elas secam e morrem'
   },
   {
     question: 'Vocês enviam sementes para todos os países?',
@@ -95,24 +93,14 @@ export const FAQ_ITEMS: FAQItem[] = [
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    name: 'Maria Silva',
-    text: 'As sementes chegaram rápido e a taxa de germinação foi excelente! Já tenho minhas primeiras mudinhas.',
+    name: 'Marilene',
+    text: 'Pessoal, moro no Paraná, estou realizando mais uma compra de mudas com a Valéria. Chegaram lindas, mudas de qualidade e ela da toda explicação de como cuidar. Estou muito satisfeita. Ela ganhou meu coração. Gratidão.',
     rating: 5
   },
   {
-    name: 'João Pereira',
-    text: 'Melhor floricultura de São Paulo para quem ama plantas raras. Atendimento excelente via WhatsApp.',
+    name: 'Liliana',
+    text: 'Agradecimentos calorosos, o envelope seu chegou muito rápido, considerando que vem do Brasil!.',
     rating: 5
-  },
-  {
-    name: 'Elena Rodriguez',
-    text: 'The seeds arrived in Spain in perfect condition. Great germination rate!',
-    rating: 5
-  },
-  {
-    name: 'Ana Costa',
-    text: 'Minha coleção de Episcias cresceu muito com a ajuda das dicas do blog. Recomendo!',
-    rating: 4
   }
 ];
 
@@ -128,19 +116,21 @@ export const COLLECTION_IMAGES = [
 
 export const GALLERY_IMAGES = [
   { url: 'https://i.pinimg.com/736x/25/9d/6d/259d6dc868cd89e9c778a1f0af0ce0a8.jpg', alt: 'Episcia Galeria 1' },
-  { url: 'https://i.pinimg.com/736x/53/b9/76/53b976a1112554ec9f73ba81bfa68382.jpg', alt: 'Episcia Galeria 2' },
+  { url: 'https://i.pinimg.com/736x/8e/b7/9b/8eb79b6c5dc90c1b2451289df5558a0b.jpg', alt: 'Episcia Galeria 2' },
   { url: 'https://i.pinimg.com/736x/ef/b5/74/efb574d15f278edfb04ac5f1688ceaea.jpg', alt: 'Episcia Galeria 3' },
-  { url: 'https://i.pinimg.com/736x/4a/08/9c/4a089c8f39d384f75a24913b22bfab42.jpg', alt: 'Episcia Galeria 4' },
-  { url: 'https://i.pinimg.com/736x/6f/69/b9/6f69b90ba8cfd595f02c8bae831d803c.jpg', alt: 'Episcia Galeria 5' },
-  { url: 'https://i.pinimg.com/736x/ea/93/4e/ea934e2b256f083113703db114b01d77.jpg', alt: 'Episcia Galeria 6' },
-  { url: 'https://i.pinimg.com/736x/7b/7b/7b/7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b.jpg', alt: 'Episcia Galeria 9' },
-  { url: 'https://i.pinimg.com/736x/8c/8c/8c/8c8c8c8c8c8c8c8c8c8c8c8c8c8c8c8c.jpg', alt: 'Episcia Galeria 10' },
+  { url: 'https://i.pinimg.com/736x/51/c3/e3/51c3e3f58055f32c2a8f9dbf1fc5113d.jpg', alt: 'Episcia Galeria 4' },
+  { url: 'https://i.pinimg.com/736x/5b/3f/16/5b3f16955a79ad5d16e040521cfcb963.jpg', alt: 'Episcia Galeria 5' },
+  { url: 'https://i.pinimg.com/736x/7f/2f/d3/7f2fd36f27bc6995e9470bfebbe8e85d.jpg', alt: 'Episcia Galeria 6' },
+  { url: 'https://i.pinimg.com/736x/40/3b/f6/403bf63033c1ff6f844b2ed5f6a897e4.jpg', alt: 'Episcia Galeria 9' },
+  { url: 'https://i.pinimg.com/736x/d7/50/0d/d7500dbb61f14dbe5beeaf63fa002d1c.jpg', alt: 'Episcia Galeria 10' },
 ];
 
 export const GERMINATION_IMAGES = [
   { url: 'https://i.pinimg.com/736x/64/bc/77/64bc773a0d38e105674750ee81e7f7ca.jpg', alt: 'Germinação 1' },
   { url: 'https://i.pinimg.com/736x/dd/b1/49/ddb149f797ca7507890f485f10d80238.jpg', alt: 'Germinação 4' },
   { url: 'https://i.pinimg.com/736x/ee/30/bf/ee30bf218f9ae28ee42b20eec92003d2.jpg', alt: 'Germinação 5' },
+  { url: 'https://i.pinimg.com/736x/40/3b/f6/403bf63033c1ff6f844b2ed5f6a897e4.jpg', alt: 'Germinação 6' },
+  { url: 'https://i.pinimg.com/736x/1f/4a/ef/1f4aef87c6c6c137c2b91544c7289c9a.jpg', alt: 'Germinação 7' },
 ];
 
 export const OTHER_SEEDS_IMAGES = [

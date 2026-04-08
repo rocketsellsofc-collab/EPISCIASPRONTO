@@ -54,13 +54,13 @@ export function Navbar() {
             <div className="bg-brand-black rounded-2xl group-hover:rotate-12 transition-transform shadow-xl overflow-hidden w-10 h-10 flex items-center justify-center">
               <img 
                 src="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" 
-                alt="Epíscias SP Logo" 
+                alt="Epíscias São Paulo Brasil Logo" 
                 className="w-full h-full object-cover scale-[1.6]"
                 referrerPolicy="no-referrer"
               />
             </div>
             <span className="font-serif text-2xl font-black tracking-tighter text-brand-black">
-              Epíscias <span className="text-brand-pink">SP</span>
+              Epíscias <span className="text-brand-pink">São Paulo Brasil</span>
             </span>
           </Link>
 
@@ -157,13 +157,13 @@ export function Footer() {
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden w-12 h-12 flex items-center justify-center">
                 <img 
                   src="https://i.pinimg.com/736x/8e/bd/db/8ebddbeaf311e1d3e99333ad792432cd.jpg" 
-                  alt="Epíscias SP Logo" 
+                  alt="Epíscias São Paulo Brasil Logo" 
                   className="w-full h-full object-cover scale-[1.6]"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <span className="font-serif text-3xl font-black text-white tracking-tighter">
-                Epíscias <span className="text-brand-pink">SP</span>
+                Epíscias <span className="text-brand-pink">São Paulo Brasil</span>
               </span>
             </Link>
             <p className="text-base leading-relaxed mb-10 text-stone-400 font-medium">

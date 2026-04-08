@@ -9,7 +9,7 @@ export function FAQ() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
-    <div className="pt-40 pb-32 bg-white">
+    <div className="pt-40 pb-32 bg-transparent">
       <Helmet>
         <title>Dúvidas Frequentes | Epíscias São Paulo Brasil</title>
         <meta name="description" content="Tire suas dúvidas sobre germinação, cuidados, pagamentos e envios internacionais de sementes de Episcias." />

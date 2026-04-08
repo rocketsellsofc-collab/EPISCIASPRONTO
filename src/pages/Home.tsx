@@ -18,12 +18,12 @@ export function Home() {
       <section className="relative h-screen flex items-center pt-20">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1592150621344-82841b6f9302?auto=format&fit=crop&q=80&w=2000"
+            src="https://i.pinimg.com/736x/8b/5e/1e/8b5e1e62720e9e236558ea882b470b47.jpg"
             alt="Episcia Background"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-black/30"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -36,10 +36,11 @@ export function Home() {
             <span className="inline-flex items-center gap-2 px-6 py-2 bg-brand-green text-white rounded-full text-base font-black mb-8 tracking-widest uppercase shadow-xl shadow-brand-green/20 animate-bounce-subtle">
               <Globe size={18} /> Envio Nacional e Internacional
             </span>
-            <h1 className="text-6xl md:text-8xl font-serif font-black text-brand-black leading-[0.9] mb-8 tracking-tighter">
-              Pequenas Sementes <span className="text-brand-pink">Grandes</span> Jardins
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-black text-white leading-[0.9] mb-8 tracking-tighter drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+              <span className="block whitespace-nowrap">Pequenas Sementes</span>
+              <span className="block whitespace-nowrap"><span className="text-brand-pink">Grandes</span> Jardins</span>
             </h1>
-            <p className="text-xl text-brand-black/70 mb-12 leading-relaxed max-w-lg font-medium">
+            <p className="text-xl text-white mb-12 leading-relaxed max-w-lg font-medium drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)]">
               Sementes selecionadas com comprometimento, cultivadas com amor para um mundo mais florido
             </p>
             <div className="flex flex-col sm:flex-row gap-6">

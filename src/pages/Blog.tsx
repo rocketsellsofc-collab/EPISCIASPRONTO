@@ -7,7 +7,7 @@ import Markdown from 'react-markdown';
 
 export function Blog() {
   return (
-    <div className="pt-40 pb-32 bg-white">
+    <div className="pt-40 pb-32 bg-transparent">
       <Helmet>
         <title>Blog & Dicas de Cultivo | Epíscias São Paulo Brasil</title>
         <meta name="description" content="Aprenda a cuidar das suas Episcias. Dicas de germinação, iluminação e rega para colecionadores." />
@@ -23,7 +23,7 @@ export function Blog() {
           <div className="w-32 h-2 bg-brand-blue mx-auto mt-12 rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-24">
           {BLOG_POSTS.map((post, i) => (
             <motion.article
               key={post.id}
@@ -62,6 +62,37 @@ export function Blog() {
             </motion.article>
           ))}
         </div>
+
+        {/* Useful Links Section */}
+        <div className="bg-stone-50 p-12 rounded-[50px] border border-stone-100">
+          <h2 className="text-3xl font-serif font-black text-brand-black mb-8 tracking-tight">Links Úteis</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <a 
+              href="https://gesneriadsociety.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-6 bg-white rounded-3xl shadow-sm hover:shadow-md transition-all border border-stone-200 text-brand-black font-black uppercase text-xs tracking-widest flex items-center justify-between group"
+            >
+              The Gesneriad Society <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            </a>
+            <a 
+              href="https://powo.science.kew.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-6 bg-white rounded-3xl shadow-sm hover:shadow-md transition-all border border-stone-200 text-brand-black font-black uppercase text-xs tracking-widest flex items-center justify-between group"
+            >
+              Plants of the World Online <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            </a>
+            <a 
+              href="https://plants.ces.ncsu.edu/plants/alsobia-dianthiflora/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-6 bg-white rounded-3xl shadow-sm hover:shadow-md transition-all border border-stone-200 text-brand-black font-black uppercase text-xs tracking-widest flex items-center justify-between group"
+            >
+              Alsobia Dianthiflora Guide <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -74,9 +105,9 @@ export function BlogPost() {
   if (!post) return <div className="pt-40 text-center">Artigo não encontrado.</div>;
 
   return (
-    <div className="pt-40 pb-32 bg-white">
+    <div className="pt-40 pb-32 bg-transparent">
       <Helmet>
-        <title>{post.title} | Blog Epíscias SP</title>
+        <title>{post.title} | Blog Epíscias São Paulo Brasil</title>
         <meta name="description" content={post.excerpt} />
       </Helmet>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -107,8 +138,14 @@ export function BlogPost() {
               <User size={64} className="text-brand-green" />
             </div>
             <div className="text-center md:text-left">
-              <h3 className="text-3xl font-serif font-black mb-4 tracking-tight">Equipe Epíscias SP</h3>
-              <p className="text-xl text-brand-black/60 mb-8 leading-relaxed font-medium">Especialistas em botânica e apaixonados por plantas tropicais. Nossa missão é compartilhar conhecimento para que colecionadores de todo o mundo possam cultivar com sucesso.</p>
+              <h3 className="text-3xl font-serif font-black mb-4 tracking-tight">Equipe Epíscias São Paulo Brasil</h3>
+              <p className="text-xl text-brand-black/60 mb-8 leading-relaxed font-medium whitespace-pre-line">
+                (Traga sua dúvida, sua pergunta!{"\n"}
+                Vamos aprender juntos!{"\n"}
+                "Ninguém nasce sabendo!{"\n"}
+                Aprendemos ao longo da vida“{"\n"}
+                Nunca é tarde! Só Venha!).
+              </p>
               <div className="flex justify-center md:justify-start gap-6">
                 <a href="https://www.instagram.com/episciassaopaulobrasil/" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-brand-pink transition-all hover:-translate-y-1"><Instagram size={28} /></a>
                 <a href="https://www.facebook.com/valeria.roca.777" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-brand-blue transition-all hover:-translate-y-1"><Facebook size={28} /></a>
