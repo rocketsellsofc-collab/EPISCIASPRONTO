@@ -51,7 +51,7 @@ export function Galeria() {
         <div className="mt-32 text-center">
           <p className="text-2xl font-black mb-10 tracking-tight">Cada semente carrega a promessa de algo novo</p>
           <a
-            href="https://wa.me/5511948570371"
+            href="https://wa.me/5511984160671"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brand-pink text-white px-8 py-4 md:px-12 md:py-6 rounded-2xl text-lg md:text-xl font-black hover:scale-105 active:scale-95 transition-all inline-flex items-center gap-3 shadow-2xl shadow-brand-pink/20"

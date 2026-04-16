@@ -123,13 +123,13 @@ export function Sobre() {
                 </p>
                 <p>
                   <span className="block text-brand-pink font-black uppercase tracking-widest text-xs mb-2">Telefone</span>
-                  +55 11 94857-0371
+                  +55 11 98416-0671
                 </p>
               </div>
             </div>
             <div className="flex items-center justify-center">
               <a
-                href="https://wa.me/5511948570371"
+                href="https://wa.me/5511984160671"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-pink text-white px-12 py-6 rounded-3xl text-2xl font-black hover:scale-105 active:scale-95 transition-all flex items-center gap-4 shadow-2xl shadow-brand-pink/30"

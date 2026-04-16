@@ -45,7 +45,7 @@ export function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <a
-                href="https://wa.me/5511948570371"
+                href="https://wa.me/5511984160671"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-pink text-white px-8 py-4 md:px-10 md:py-5 rounded-2xl text-lg md:text-xl font-black hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-3 shadow-2xl shadow-brand-pink/30"
@@ -225,7 +225,9 @@ export function Home() {
                   ))}
                 </div>
                 <p className="text-xl italic mb-8 text-stone-300 leading-relaxed">"{t.text}"</p>
-                <div className="font-black text-brand-pink uppercase tracking-widest text-xs">— {t.name}</div>
+                <div className="font-black text-brand-pink uppercase tracking-widest text-xs">
+                  — {t.name} {t.flag && <span className="text-[10px] ml-1">{t.flag}</span>}
+                </div>
               </div>
             ))}
           </div>
@@ -244,7 +246,7 @@ export function Home() {
             Fale conosco agora pelo WhatsApp e conheça nosso catálogo de sementes disponíveis!
           </p>
           <a
-            href="https://wa.me/5511948570371"
+            href="https://wa.me/5511984160671"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brand-black text-white px-8 py-4 md:px-12 md:py-6 rounded-2xl text-xl md:text-2xl font-black hover:scale-105 active:scale-95 transition-all inline-flex items-center gap-4 shadow-2xl"

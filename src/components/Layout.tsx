@@ -83,7 +83,7 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href="https://wa.me/5511948570371"
+              href="https://wa.me/5511984160671"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-brand-pink text-white px-8 py-3.5 rounded-2xl text-xs font-black uppercase tracking-widest hover:scale-105 active:scale-95 transition-all flex items-center gap-3 shadow-2xl shadow-brand-pink/20"
@@ -125,7 +125,7 @@ export function Navbar() {
               ))}
               <div className="pt-8 flex flex-col gap-6">
                 <a
-                  href="https://wa.me/5511948570371"
+                  href="https://wa.me/5511984160671"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-brand-pink text-white w-full py-4 rounded-2xl text-sm font-black uppercase tracking-widest flex items-center justify-center gap-3 shadow-xl"
@@ -207,7 +207,7 @@ export function Footer() {
                 <div className="w-10 h-10 rounded-xl bg-stone-900 flex items-center justify-center shrink-0">
                   <WhatsAppIcon size={18} className="text-brand-green" />
                 </div>
-                <span className="text-stone-400 font-black text-lg">+55 11 94857-0371</span>
+                <span className="text-stone-400 font-black text-lg">+55 11 98416-0671</span>
               </li>
             </ul>
           </div>
@@ -247,7 +247,7 @@ export function Footer() {
 export function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/5511948570371"
+      href="https://wa.me/5511984160671"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 bg-brand-pink text-white p-4 md:p-6 rounded-[24px] md:rounded-[32px] shadow-2xl hover:scale-110 active:scale-95 transition-all flex items-center justify-center group"

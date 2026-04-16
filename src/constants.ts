@@ -53,7 +53,7 @@ Mudas jovens são extremamente sensíveis. Elas precisam de muita claridade, mas
     excerpt: 'Descubra as vantagens de iniciar sua coleção de Episcias do zero.',
     date: '2024-02-15',
     category: 'Tendências',
-    image: 'https://i.pinimg.com/736x/4e/28/cc/4e28cc2aabe79e7e11fd5f9add14dd30.jpg',
+    image: 'https://i.pinimg.com/736x/95/01/70/95017069b6b0c444e860625ce48166ec.jpg',
     content: `
 # Por que Cultivar Episcias a partir de Sementes?
 
@@ -95,12 +95,26 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: 'Marilene',
     text: 'Pessoal, moro no Paraná, estou realizando mais uma compra de mudas com a Valéria. Chegaram lindas, mudas de qualidade e ela da toda explicação de como cuidar. Estou muito satisfeita. Ela ganhou meu coração. Gratidão.',
-    rating: 5
+    rating: 5,
+    flag: '🇧🇷'
   },
   {
     name: 'Liliana',
     text: 'Agradecimentos calorosos, o envelope seu chegou muito rápido, considerando que vem do Brasil!.',
-    rating: 5
+    rating: 5,
+    flag: '🇷🇴'
+  },
+  {
+    name: 'Zilda',
+    text: 'Eu compro sementes com a Valéria a muito tempo, adoro! Sou muito grata por tudo pelas belas Episcias São Paulo com todos os suportes que ela me deu desde o começo, muito obrigada',
+    rating: 5,
+    flag: '🇧🇷'
+  },
+  {
+    name: 'João',
+    text: 'Também comprei as sementes com a Valéria, e sob suas orientações deu tudo certo. Inclusive postei no grupo os resultados. Super recomendo!',
+    rating: 5,
+    flag: '🇧🇷'
   }
 ];
 
@@ -112,6 +126,8 @@ export const COLLECTION_IMAGES = [
   { url: 'https://i.pinimg.com/736x/f0/21/90/f02190c96c846a9ff291d9201bf4e36f.jpg', alt: 'Episcia Variedade 5' },
   { url: 'https://i.pinimg.com/736x/34/f1/90/34f190c92d9ff7e23ece159ca8260445.jpg', alt: 'Episcia Variedade 6' },
   { url: 'https://i.pinimg.com/736x/52/9e/54/529e5421446f355cd1476ec90301dd58.jpg', alt: 'Episcia Variedade 7' },
+  { url: 'https://i.pinimg.com/736x/8b/5e/1e/8b5e1e62720e9e236558ea882b470b47.jpg', alt: 'Episcia Variedade 8' },
+  { url: 'https://i.pinimg.com/736x/6a/67/13/6a6713431b38c43289c5c402d3613bb0.jpg', alt: 'Episcia Variedade 9' },
 ];
 
 export const GALLERY_IMAGES = [
@@ -131,6 +147,12 @@ export const GERMINATION_IMAGES = [
   { url: 'https://i.pinimg.com/736x/ee/30/bf/ee30bf218f9ae28ee42b20eec92003d2.jpg', alt: 'Germinação 5' },
   { url: 'https://i.pinimg.com/736x/40/3b/f6/403bf63033c1ff6f844b2ed5f6a897e4.jpg', alt: 'Germinação 6' },
   { url: 'https://i.pinimg.com/736x/1f/4a/ef/1f4aef87c6c6c137c2b91544c7289c9a.jpg', alt: 'Germinação 7' },
+  { url: 'https://i.pinimg.com/736x/69/c9/56/69c9566e2a7fdceefa16a4652f2ca76d.jpg', alt: 'Germinação 8' },
+  { url: 'https://i.pinimg.com/736x/4e/eb/26/4eeb26a1d29878addb9b9d4eafb02d4d.jpg', alt: 'Germinação 9' },
+  { url: 'https://i.pinimg.com/736x/31/f4/77/31f47759cbb1acca02054d6c8e7adf7d.jpg', alt: 'Germinação 10' },
+  { url: 'https://i.pinimg.com/736x/91/1e/a7/911ea748edbf9dd6d91f773edea95483.jpg', alt: 'Germinação 11' },
+  { url: 'https://i.pinimg.com/736x/83/b8/4a/83b84a84c557f39380158aa21da6e22e.jpg', alt: 'Germinação 12' },
+  { url: 'https://i.pinimg.com/736x/e7/8f/a6/e78fa670f9ab1a17365ea2073ba4161e.jpg', alt: 'Germinação 13' },
 ];
 
 export const OTHER_SEEDS_IMAGES = [

@@ -69,7 +69,7 @@ export function FAQ() {
           <h3 className="text-3xl md:text-5xl font-serif font-black mb-6 tracking-tighter relative z-10">Ainda tem dúvidas?</h3>
           <p className="mb-12 text-xl text-stone-400 font-medium relative z-10">Nossa equipe está pronta para te ajudar pessoalmente via WhatsApp.</p>
           <a
-            href="https://wa.me/5511948570371"
+            href="https://wa.me/5511984160671"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brand-pink text-white px-8 py-4 md:px-12 md:py-6 rounded-2xl text-lg md:text-xl font-black hover:scale-105 active:scale-95 transition-all inline-flex items-center gap-3 shadow-2xl shadow-brand-pink/20 relative z-10"
