@@ -192,8 +192,8 @@ export function Home() {
       {/* Other Seeds Gallery */}
       <section className="py-32 bg-transparent overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-          <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-6 tracking-tighter">Outras sementes</h2>
-          <p className="text-xl text-brand-black/60 font-medium">Conheça nossa variedade de sementes especiais.</p>
+          <h2 className="text-4xl md:text-6xl font-serif font-black text-brand-black mb-6 tracking-tighter">Outras sementes a venda</h2>
+          <p className="text-xl text-brand-black/60 font-medium">Conheça nosso catálogo no WhatsApp.</p>
         </div>
 
         <div className="flex gap-8 animate-marquee">

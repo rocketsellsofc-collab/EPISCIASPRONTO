@@ -119,7 +119,7 @@ export function Sobre() {
                 </p>
                 <p>
                   <span className="block text-brand-pink font-black uppercase tracking-widest text-xs mb-2">E-mail</span>
-                  conversecomvaleria@hotmail.com
+                  episciasaopaulo@episciasaopaulo.com.br
                 </p>
                 <p>
                   <span className="block text-brand-pink font-black uppercase tracking-widest text-xs mb-2">Telefone</span>

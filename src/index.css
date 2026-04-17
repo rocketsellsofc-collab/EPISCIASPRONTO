@@ -18,7 +18,10 @@
 @layer base {
   body {
     @apply font-sans text-brand-black;
-    background-color: #FFF0F3;
+    background-color: #FFFAFB;
+    background-image: radial-gradient(#FFD1D8 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+    background-attachment: fixed;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif text-brand-black;
@@ -42,12 +45,12 @@
   .animate-marquee {
     display: flex;
     width: fit-content;
-    animation: marquee 40s linear infinite;
+    animation: marquee 30s linear infinite;
   }
   .animate-marquee-reverse {
     display: flex;
     width: fit-content;
-    animation: marquee-reverse 40s linear infinite;
+    animation: marquee-reverse 30s linear infinite;
   }
   .animate-marquee:hover, .animate-marquee-reverse:hover {
     animation-play-state: paused;

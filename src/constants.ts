@@ -83,7 +83,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   },
   {
     question: 'Vocês enviam sementes para todos os países?',
-    answer: 'Sim enviamos!\nPossuímos autorização fitosanitaia.\nO envio é feito com registro e rastreio.\nJá enviamos para 57 países.'
+    answer: 'Sim enviamos!\nAutorização fitosanitária.\nJá enviamos para 57 países.'
   },
   {
     question: 'As sementes tem prazo de validade?',

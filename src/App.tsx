@@ -24,7 +24,7 @@ export default function App() {
     <HelmetProvider>
       <Router>
         <ScrollToTop />
-        <div className="min-h-screen flex flex-col bg-white">
+        <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-grow">
             <Suspense fallback={<div className="h-screen flex items-center justify-center"><div className="w-12 h-12 border-4 border-brand-pink border-t-transparent rounded-full animate-spin"></div></div>}>
