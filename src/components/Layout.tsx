@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Leaf, Instagram, Facebook, Globe } from 'lucide-react';
+import { Menu, X, Leaf, Instagram, Facebook, Globe, Mail } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../types';
 
@@ -208,6 +208,12 @@ export function Footer() {
                   <WhatsAppIcon size={18} className="text-brand-green" />
                 </div>
                 <span className="text-stone-400 font-black text-lg">+55 11 98416-0671</span>
+              </li>
+              <li className="flex items-start gap-5">
+                <div className="w-10 h-10 rounded-xl bg-stone-900 flex items-center justify-center shrink-0">
+                  <Mail size={18} className="text-brand-pink" />
+                </div>
+                <span className="text-stone-400 font-medium break-all">episciasaopaulo@episciasaopaulo.com.br</span>
               </li>
             </ul>
           </div>
