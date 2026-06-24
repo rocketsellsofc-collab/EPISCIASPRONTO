@@ -160,5 +160,6 @@ export const OTHER_SEEDS_IMAGES = [
   { url: 'https://i.pinimg.com/736x/c0/84/36/c084367b985c46bb7fe49d47ab218b29.jpg', alt: 'Outras sementes 2' },
   { url: 'https://i.pinimg.com/736x/c6/ec/da/c6ecda9a38174c42ce53a541015e74f8.jpg', alt: 'Outras sementes 3' },
   { url: 'https://i.pinimg.com/736x/48/9c/27/489c27712679e9815d633fecbd1cc650.jpg', alt: 'Outras sementes 4' },
+  { url: 'https://i.pinimg.com/736x/df/bf/a9/dfbfa9acd25cfad8a03d0b64d8f00695.jpg', alt: 'Outras sementes 5' },
 ];
 
